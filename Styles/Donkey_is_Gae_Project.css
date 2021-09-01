@@ -1,0 +1,71 @@
+*{
+    font-size: 1rem;
+    background: black;
+    color: white;
+}
+
+.title{
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+
+.content1{
+    text-align: center;
+    font-size: 3em;
+}
+
+#content1:hover{
+    background: green;
+    transform: translateX(10px);
+    font-size: 5rem;
+}
+
+#nasty_1{
+    text-align: center;
+}
+
+.nasty_2{
+    text-align: center;
+    font-style: italic;
+}
+
+.nigga{
+    font-size: 3rem;
+    color: blue;
+}
+
+.fatfuck_1:hover{
+    background: red;
+    text-align: center;
+    animation-name: fatanime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fatanime {
+    0%{
+        background: green;
+    }
+    25%{
+        transform: translateY(50px);
+        background: blue;
+    }
+    50%{
+        transform: translateX(150px);
+        background: cyan;
+    }
+    100%{
+        transform: translateY(50px);
+        background: red;
+    }
+}
+
+#content1{
+    color: red;
+}
+
+
+
+
+
+
